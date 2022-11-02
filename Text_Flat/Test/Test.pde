@@ -29,8 +29,8 @@ rect(titleX, titleY, titleWidth, titleHeight);
 //Repeated Executed Code
 fill(purple);
 textAlign(CENTER, CENTER);
-//Values: 
-fontSize = 50;
+//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
+fontSize = 50;//Largest size given window
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
 fill(resetDefaultInk);
